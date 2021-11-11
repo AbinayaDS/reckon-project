@@ -1,0 +1,19 @@
+<!-- <ion-buttons slot="start">
+      <ion-button color="primary" [routerLink]="['/profile']">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>  -->
+  <ion-tabs>
+    <ion-tab-bar slot="top">
+      <ion-tab-button tab="Individual"(click)="Individual()">Individual
+        <!-- <ion-icon name="person">Individual</ion-icon> -->
+      </ion-tab-button>
+       <ion-tab-button tab="Group"(click)="Group()">Group
+       </ion-tab-button>
+      <ion-toolbar>
+        <ion-buttons slot="end">
+          <ion-menu-button></ion-menu-button> 
+       </ion-buttons>
+       </ion-toolbar>
+    </ion-tab-bar>
+  </ion-tabs>

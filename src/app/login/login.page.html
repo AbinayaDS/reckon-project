@@ -1,0 +1,15 @@
+<ion-content>
+  <div id="header">
+    <h1>Login</h1>
+    <img src="https://seekvectorlogo.com/wp-content/uploads/2019/04/reckon-vector-logo-small.png" />
+  </div>
+
+  <form id="form">
+    <ion-input expand="block" shape-="round" placeholder="Phone Number"></ion-input>
+     <!-- <ion-button [routerLink]="Verify">Verify</ion-button>  -->
+     <!-- <a slot="end" [routerLink]= "['/otp']">Verify</a> -->
+     <br>
+    <!-- <ion-input expand="block"  shape-="round" type="OTP" placeholder="Enter OTP"></ion-input> -->
+    <ion-button expand="block" shape="round" (click)="Verify()">Verify</ion-button>
+  </form>
+</ion-content>

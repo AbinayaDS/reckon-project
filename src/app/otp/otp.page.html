@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Otp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form id="form">
+    <ion-input expand="block"  shape-="round" type="OTP" placeholder="Enter OTP"></ion-input>
+    <a slot="end" routerLink= "Resend OTP">Resend OTP</a>
+    <ion-button expand="block" shape="round" (click)="Login()">Login</ion-button>
+  </form>
+</ion-content>

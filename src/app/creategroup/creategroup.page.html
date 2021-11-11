@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Create Group</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form id="form">
+    <!-- <ion-input type="text" shape-="round">Group Name</ion-input>
+   <br>
+    <ion-input type="text"  shape-="round">Group Description</ion-input>
+    <ion-button expand="block" shape="round">Create</ion-button> -->
+    <ion-item>
+      <ion-label position="floating">Group Name </ion-label>
+      <ion-input ></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="floating">Group Description</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-button [routerLink]= "['/group']" expand="block" shape="round"> Create</ion-button>
+  </form>
+</ion-content>

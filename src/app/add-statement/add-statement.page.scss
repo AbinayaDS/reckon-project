@@ -1,0 +1,25 @@
+#rounded {
+    width: 75%;
+    height: 50px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+
+#container {
+    width: 400px; 
+    margin-left:auto; 
+    margin-right: auto; 
+}
+ion-button {
+    margin-top: 25px;
+    height: 38px;
+    font-size: 20px;
+    text-transform: initial;
+    border-radius: 25px;
+    box-shadow: 1px 8px 8px 0px rgba(0, 0, 0, 0.05);
+    --box-shadow: none;
+    
+  }
+
